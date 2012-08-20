@@ -1,0 +1,13 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="IronRuby Videoplayer" x:Name="window" Width="800" Height="600">
+	<Grid Background="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Height="Auto" x:Name="main_grid">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="80*" />
+			<ColumnDefinition Width="20*" />
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="80*" />
+			<RowDefinition Height="20*" />
+		</Grid.RowDefinitions>
+		<MediaElement x:Name="media_element" Grid.Row="1" Grid.Column="1" Width="Auto" Height="Auto" />
+	</Grid>
+</Window>
