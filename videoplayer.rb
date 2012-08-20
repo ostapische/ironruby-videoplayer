@@ -1,7 +1,8 @@
-require 'PresentationFramework'
-require 'PresentationCore'
-require 'System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
-require 'WindowsBase'
+version = System::Environment.Version.Major == 4 ? "4.0.0.0" : "3.0.0.0"
+require "PresentationFramework, Version=#{version}, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+require "PresentationCore, Version=#{version}, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+require "System.Core, Version=#{version}, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+require "WindowsBase, Version=#{version}, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
 
 include System
 include System::Windows
