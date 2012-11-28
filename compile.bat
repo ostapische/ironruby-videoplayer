@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\IronRuby 1.1\bin\irpack.bat" -o videoplayer.exe --window videoplayer.rb
